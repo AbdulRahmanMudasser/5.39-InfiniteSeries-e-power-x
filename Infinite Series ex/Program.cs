@@ -15,7 +15,7 @@
         for (int i = 1; i <= number; i++) 
         {
             numerator *= x;
-            denominator *= i;
+            denominator *= i;   // same as factorial
             ex = numerator / denominator;
         }
 
